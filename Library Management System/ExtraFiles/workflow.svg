@@ -1,0 +1,82 @@
+<svg viewBox="0 0 700 780" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="700" height="780" fill="#1e1e2e"/>
+  <text x="350" y="35" fill="#f9e2af" font-size="20" font-weight="bold" text-anchor="middle">Library Management System — Workflow</text>
+
+  <!-- Start -->
+  <rect x="270" y="60" width="160" height="45" rx="22" fill="#a6e3a1"/>
+  <text x="350" y="88" fill="#1e1e2e" font-size="14" text-anchor="middle" font-weight="bold">Start (main.py)</text>
+
+  <!-- Load CSV -->
+  <rect x="250" y="130" width="200" height="45" rx="6" fill="#89b4fa"/>
+  <text x="350" y="158" fill="#1e1e2e" font-size="13" text-anchor="middle">load_books() from CSV</text>
+
+  <!-- Menu -->
+  <rect x="250" y="200" width="200" height="45" rx="6" fill="#f9e2af"/>
+  <text x="350" y="228" fill="#1e1e2e" font-size="13" text-anchor="middle">clear_screen() + show menu</text>
+
+  <!-- Choice diamond -->
+  <polygon points="350,265 430,310 350,355 270,310" fill="#cba6f7"/>
+  <text x="350" y="315" fill="#1e1e2e" font-size="13" text-anchor="middle">User choice?</text>
+
+  <!-- Branch boxes -->
+  <rect x="20" y="400" width="120" height="40" rx="6" fill="#f38ba8"/>
+  <text x="80" y="425" fill="#1e1e2e" font-size="11" text-anchor="middle">Add Book</text>
+
+  <rect x="150" y="400" width="120" height="40" rx="6" fill="#f38ba8"/>
+  <text x="210" y="425" fill="#1e1e2e" font-size="11" text-anchor="middle">View / Search</text>
+
+  <rect x="280" y="400" width="120" height="40" rx="6" fill="#f38ba8"/>
+  <text x="340" y="425" fill="#1e1e2e" font-size="11" text-anchor="middle">Issue / Return</text>
+
+  <rect x="410" y="400" width="120" height="40" rx="6" fill="#f38ba8"/>
+  <text x="470" y="425" fill="#1e1e2e" font-size="11" text-anchor="middle">Delete Book</text>
+
+  <rect x="540" y="400" width="120" height="40" rx="6" fill="#f38ba8"/>
+  <text x="600" y="425" fill="#1e1e2e" font-size="11" text-anchor="middle">Show Stats</text>
+
+  <!-- Save CSV -->
+  <rect x="250" y="470" width="200" height="45" rx="6" fill="#89b4fa"/>
+  <text x="350" y="498" fill="#1e1e2e" font-size="13" text-anchor="middle">save_books() to CSV</text>
+
+  <!-- Pause -->
+  <rect x="250" y="540" width="200" height="45" rx="6" fill="#94e2d5"/>
+  <text x="350" y="568" fill="#1e1e2e" font-size="13" text-anchor="middle">Press Enter to continue</text>
+
+  <!-- Exit diamond -->
+  <polygon points="350,600 430,645 350,690 270,645" fill="#cba6f7"/>
+  <text x="350" y="650" fill="#1e1e2e" font-size="13" text-anchor="middle">Exit?</text>
+
+  <!-- End -->
+  <rect x="270" y="710" width="160" height="45" rx="22" fill="#eba0ac"/>
+  <text x="350" y="738" fill="#1e1e2e" font-size="14" text-anchor="middle" font-weight="bold">Goodbye / Exit</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#cdd6f4"/>
+    </marker>
+  </defs>
+  <g stroke="#cdd6f4" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <line x1="350" y1="105" x2="350" y2="128"/>
+    <line x1="350" y1="175" x2="350" y2="198"/>
+    <line x1="350" y1="245" x2="350" y2="263"/>
+    <line x1="310" y1="335" x2="90" y2="398"/>
+    <line x1="330" y1="345" x2="215" y2="398"/>
+    <line x1="350" y1="355" x2="345" y2="398"/>
+    <line x1="370" y1="345" x2="465" y2="398"/>
+    <line x1="395" y1="330" x2="595" y2="398"/>
+    <line x1="80" y1="440" x2="300" y2="472"/>
+    <line x1="210" y1="440" x2="320" y2="472"/>
+    <line x1="340" y1="440" x2="345" y2="468"/>
+    <line x1="470" y1="440" x2="380" y2="472"/>
+    <line x1="600" y1="440" x2="410" y2="472"/>
+    <line x1="350" y1="515" x2="350" y2="538"/>
+    <line x1="350" y1="585" x2="350" y2="598"/>
+    <line x1="350" y1="690" x2="350" y2="708"/>
+  </g>
+  <!-- loop back -->
+  <path d="M 270 645 C 100 645, 100 220, 248 218" stroke="#f9e2af" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <text x="60" y="430" fill="#f9e2af" font-size="11">No → loop to menu</text>
+
+  <text x="440" y="670" fill="#a6adc8" font-size="12">Yes ↓</text>
+</svg>

@@ -1,0 +1,21 @@
+id,title,author,genre,issued
+1,The Hobbit,J.R.R. Tolkien,Fantasy,False
+2,1984,George Orwell,Dystopian,True
+3,Clean Code,Robert C. Martin,Programming,False
+4,The Pragmatic Programmer,Andrew Hunt,Programming,False
+5,Dune,Frank Herbert,Science Fiction,False
+6,Brave New World,Aldous Huxley,Dystopian,True
+7,The Catcher in the Rye,J.D. Salinger,Fiction,False
+8,To Kill a Mockingbird,Harper Lee,Fiction,False
+9,Fahrenheit 451,Ray Bradbury,Dystopian,False
+10,The Lord of the Rings,J.R.R. Tolkien,Fantasy,True
+11,Harry Potter and the Sorcerer's Stone,J.K. Rowling,Fantasy,False
+12,The Alchemist,Paulo Coelho,Fiction,False
+13,Sapiens,Yuval Noah Harari,Non-Fiction,True
+14,Atomic Habits,James Clear,Self-Help,False
+15,The Silent Patient,Alex Michaelides,Thriller,False
+16,Gone Girl,Gillian Flynn,Thriller,True
+17,The Da Vinci Code,Dan Brown,Mystery,False
+18,Introduction to Algorithms,Thomas H. Cormen,Programming,False
+19,Foundation,Isaac Asimov,Science Fiction,False
+20,The Hitchhiker's Guide to the Galaxy,Douglas Adams,Science Fiction,True

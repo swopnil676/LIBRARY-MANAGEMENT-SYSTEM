@@ -1,0 +1,31 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, monospace">
+  <rect width="620" height="380" fill="#1e1e2e"/>
+  <text x="20" y="35" fill="#f9e2af" font-size="18" font-weight="bold">library-management-system/</text>
+
+  <text x="40" y="70" fill="#89b4fa" font-size="16">├── main.py</text>
+  <text x="70" y="92" fill="#a6adc8" font-size="13">entry point → calls db.load_books(), ui.menu()</text>
+
+  <text x="40" y="125" fill="#89b4fa" font-size="16">├── database.py</text>
+  <text x="70" y="147" fill="#a6adc8" font-size="13">book model, CSV load/save, CRUD helpers</text>
+
+  <text x="40" y="180" fill="#89b4fa" font-size="16">├── ui.py</text>
+  <text x="70" y="202" fill="#a6adc8" font-size="13">CLI menu, screen clearing, user I/O</text>
+
+  <text x="40" y="235" fill="#a6e3a1" font-size="16">└── library_books.csv</text>
+  <text x="70" y="257" fill="#a6adc8" font-size="13">persisted book records (id,title,author,genre,issued)</text>
+
+  <line x1="30" y1="55" x2="30" y2="245" stroke="#585b70" stroke-width="1.5"/>
+  <line x1="30" y1="55" x2="45" y2="55" stroke="#585b70" stroke-width="1.5"/>
+  <line x1="30" y1="110" x2="45" y2="110" stroke="#585b70" stroke-width="1.5"/>
+  <line x1="30" y1="165" x2="45" y2="165" stroke="#585b70" stroke-width="1.5"/>
+  <line x1="30" y1="220" x2="45" y2="220" stroke="#585b70" stroke-width="1.5"/>
+
+  <rect x="20" y="290" width="580" height="70" rx="6" fill="#313244" stroke="#585b70"/>
+  <text x="35" y="312" fill="#cdd6f4" font-size="12">Dependency flow:</text>
+  <text x="35" y="332" fill="#f38ba8" font-size="12">main.py</text>
+  <text x="100" y="332" fill="#a6adc8" font-size="12">→ imports →</text>
+  <text x="195" y="332" fill="#89dceb" font-size="12">database.py, ui.py</text>
+  <text x="35" y="350" fill="#f38ba8" font-size="12">ui.py</text>
+  <text x="95" y="350" fill="#a6adc8" font-size="12">→ imports →</text>
+  <text x="190" y="350" fill="#89dceb" font-size="12">database.py</text>
+</svg>
